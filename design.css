@@ -12,6 +12,9 @@ body {
     margin: 0;
 }
 
+
+/* List Table*/
+
 .container {
     padding: 40px 50px;
     background: linear-gradient(135deg, #302b63, #da0037);
@@ -73,4 +76,89 @@ body {
     background-color: #da0037;
     transform: translateY(-3px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+
+/* Login-Register form*/
+.container2 {
+    padding: 40px 50px;
+    background: linear-gradient(135deg, #302b63, #da0037);
+    margin: 5vh auto;
+    margin-bottom: 10vh !important;
+    border-radius: 20px;
+    width: 500px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container2 h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffdddd;
+}
+
+.container2  form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.container2 form input{
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: .9rem;
+    outline: none;
+}
+
+.container2 form input:focus {
+    box-shadow: 0 0 8px #ff1a1a;
+}
+
+.container2 button {
+    padding: 12px;
+    align-self: center;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff1a1a;
+    color: #fff;
+    font-size: .8rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.container2 button:hover {
+    background-color: #da0037;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+#heading, #logout {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffdddd;
+}
+#heading{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+}
+
+#logout a{
+    color: brown;
 }
